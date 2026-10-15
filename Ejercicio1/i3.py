@@ -1,0 +1,12 @@
+print ("Comparador de numeros")
+print ("Cual es el primer numero?:")
+a = float(input())
+print ("Cual es el segundo numero?:")
+b = float(input())
+
+print("Son iguales?: ", a == b)
+print("No son iguales?: ", a != b)
+print("El primer numero es mayor al segundo: ", a > b)
+print("El primer numero es menor al segundo: ", a < b)
+print("El primer numero es mayor o igual al segundo: ", a >= b)
+print("El primer numero es menor o igual al segundo: ", a <= b)
